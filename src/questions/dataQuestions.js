@@ -1,7 +1,7 @@
 const dataQuestions =  [
     {
         id: 1,
-        question: "Wie kauft man?",
+        question: "Wie kann man einen Termin machen?",
         answer: "Sie können uns anrufen."
     },
     {
@@ -11,8 +11,8 @@ const dataQuestions =  [
     },
     {
         id: 3,
-        question: "qtext3",
-        answer: "atext3"
+        question: "Wie viel kostet eine Montage?",
+        answer: "10000000$"
     }
 ]
 export default dataQuestions

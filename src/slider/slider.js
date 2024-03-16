@@ -28,10 +28,10 @@ export default function Slider() {
         .filter((example) => example.id === activeId)
         .map((example) => {
             return (
-                <div key={example.id}>
+                <div className="sliderImg" key={example.id}>
                     <img src={example.img}
                          alt="example"
-                         className="sliderImg"/>
+                         />
                 </div>
             )
         })
