@@ -1,0 +1,18 @@
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 3rem;
+    padding: 1rem 5rem;
+    background: whitesmoke;
+    color: #241f1f;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footerIcon {
+    font-size: 2rem;
+    color: black;
+}

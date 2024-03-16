@@ -1,0 +1,31 @@
+
+.showcaseContainer {
+    max-width: 1600px;
+    height: 75vh;
+    background: black;
+    position: relative;
+    margin: 7rem auto 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../public/img/pro_five.jpg") no-repeat  center center/cover ;
+}
+
+.showcaseInfo {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    width: 50%;
+    text-align: left;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+    gap: 1rem;
+}
+
+

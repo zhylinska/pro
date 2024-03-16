@@ -1,0 +1,18 @@
+.sliderContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.sliderImg {
+    max-width: 1000px;
+    height: 50vh;
+    margin: 0 2rem;
+}
+.arrow {
+    color: red;
+   font-size: 2rem;
+    background: transparent;
+    border: transparent;
+}

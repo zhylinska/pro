@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  font-family: "Oswald", sans-serif;
+}
+
+
+.red {
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+  background: transparent;
+  border: transparent;
+  margin-left: 1rem;
+}
+
