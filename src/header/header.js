@@ -20,14 +20,18 @@ export default function Header({Show}) {
                         <ul className="navItemList">
                             <li
                                 className={showMenu ? "active" : "navListItem"}
-
                             ><a className="ref"
                                 onClick={()=> Show()}
                                 href="#showcase">Über uns</a></li>
-                            <li className={showMenu ? "active" : "navListItem"}><a className="ref" href="#slider">Projekte</a></li>
-                            <li className={showMenu ? "active" : "navListItem"}><a className="ref" href="#">Unser Team</a></li>
+                            <li className={showMenu ? "active" : "navListItem"}>
+                                <a className="ref" href="#slider">Projekte</a>
+                            </li>
+                            <li className={showMenu ? "active" : "navListItem"}>
+                                <a className="ref" href="#">Unser Team</a>
+                            </li>
                         </ul>
                     </div>
+                    <div className="navItem">Karriere<span className="red headerArrow"><MdKeyboardArrowDown/></span></div>
 
                 </div>
 
@@ -41,10 +45,10 @@ export default function Header({Show}) {
                 <div className="contactsBlock">
                     <div className="navItem"
                          onClick={() => setShowContacts((prev) => !prev)}
-                    >Kontakte<span className="red headerArrow"><MdKeyboardArrowDown /></span>
+                    >Kontakte<span className="red  headerArrow"><MdKeyboardArrowDown /></span>
                         <ul className="contactsItemList">
                             <li className={ showContacts ? "active" : "contactsListItem"}>
-                                <a className="ref" href="#">Nürnberg <br/>Nopitschctraße 2 </a>
+                                <a className="ref" href="#">Nürnberg <br/>Nopitschstraße 2</a>
                             </li>
                             <li className={ showContacts ? "active" : "contactsListItem"}>
                                 <a className="ref" href="#">Tel.: +491639344970</a>

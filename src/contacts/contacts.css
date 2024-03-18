@@ -1,0 +1,28 @@
+.contactsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+text-align: left;
+    padding: 2rem 0;
+}
+.footerContacts {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.7rem;
+    align-items: start;
+
+
+}
+.footerContactsTitle {
+    text-transform: uppercase;
+color: #746f6f;
+
+}
+.footerContactsInfo {
+    list-style: none;
+
+}

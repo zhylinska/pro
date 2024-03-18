@@ -38,12 +38,12 @@ export default function Slider() {
     return (
         <section id="slider" className="sliderContainer">
             <button
-                className="arrow"
+                className="red"
                 onClick={Previous}><MdOutlineArrowBackIosNew/>
             </button>
             {sliderCards}
             <button
-                className="arrow"
+                className="red"
                 onClick={Next}><MdOutlineArrowForwardIos/>
             </button>
         </section>

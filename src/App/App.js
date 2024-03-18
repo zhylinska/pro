@@ -5,7 +5,7 @@ import Showcase from "../showcase/showcase";
 import Slider from "../slider/slider"
 import Footer from "../footer/footer";
 import JoinButton from "../join/joinButton";
-import Questions from "../questions/questions";
+import Contacts from "../contacts/contacts";
 
 
 export default function App() {
@@ -30,7 +30,7 @@ export default function App() {
         Show={Show}
         />
         <Slider/>
-        <Questions />
+        <Contacts />
         <Footer/>
         <JoinButton
             join={join}
